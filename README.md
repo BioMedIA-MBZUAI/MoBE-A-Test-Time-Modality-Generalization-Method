@@ -35,7 +35,7 @@ MoBE has two main components:
 ## Repository Layout
 
 ```text
-MoBE/
+MoBE-A-Test-Time-Modality-Generalization-Method/
 ├── README.md
 ├── requirements.txt
 ├── mobe.py
