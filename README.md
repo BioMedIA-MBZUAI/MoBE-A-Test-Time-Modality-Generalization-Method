@@ -81,16 +81,6 @@ pip install -r requirements.txt
 
 The repository keeps dataset folders empty so users can download datasets themselves. See [`assets/datasets.md`](assets/datasets.md) for the full dataset preparation guide.
 
-For MedMNIST, you can use:
-
-```bash
-scripts/download_medmnist.sh
-```
-
-The MedMNIST files are also available from Zenodo:
-
-https://zenodo.org/records/10519652
-
 ## Experts
 
 Download the modality expert checkpoints from:

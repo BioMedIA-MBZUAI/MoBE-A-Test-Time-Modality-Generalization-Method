@@ -37,13 +37,13 @@ The MedMNIST files used by this repo are the 224-resolution `.npz` files from:
 
 https://zenodo.org/records/10519652
 
-You can use the provided script:
+Or, you can use the provided script:
 
 ```bash
 scripts/download_medmnist.sh
 ```
 
-The script downloads into:
+The downloads .npz(s) should be saved into:
 
 ```text
 datasets_all/medmnist/
