@@ -4,7 +4,12 @@
 
 Mohamed bin Zayed University of Artificial Intelligence, Khalifa University, Indian Institute of Technology Delhi
 
-Accepted to MICCAI 2026
+<p align="center">
+  <strong>Accepted to MICCAI 2026</strong><br>
+  <a href="https://conferences.miccai.org/2026/">
+    <img src="assets/miccai2026_logo.png" alt="MICCAI 2026" width="320">
+  </a>
+</p>
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2607.16726)
 [![pdf](https://img.shields.io/badge/PDF-local-blue.svg)](assets/MoBE.pdf)
