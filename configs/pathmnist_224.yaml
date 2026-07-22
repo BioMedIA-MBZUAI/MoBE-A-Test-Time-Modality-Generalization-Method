@@ -1,0 +1,9 @@
+MOBE:
+  use_MOBE: true
+  route_with_MOBE: true
+  thr1: 0.35
+  thr2: 0.8
+  c1: 70000
+  c2: 120
+  temp: 100.0
+  lambda: 0.5
