@@ -8,5 +8,6 @@ Pillow
 PyYAML
 tqdm
 matplotlib
+ipywidgets
 scikit-learn
 wandb

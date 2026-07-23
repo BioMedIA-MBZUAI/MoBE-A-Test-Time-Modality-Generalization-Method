@@ -37,11 +37,14 @@ MoBE has two main components:
 * **Dynamic-k entropy-guided routing:** select modality experts whose predictive uncertainty is close to the most confident expert.
 * **Expert Bayesian Adaptation:** maintain expert-wise online prototypes and priors, adapting predictions from the test stream without gradient updates.
 
+**Start here:** Explore [`example.ipynb`](example.ipynb) for a quick, hands-on MoBE tutorial with guided steps, bundled medical images, and interactive visualizations.
+
 ## Repository Layout
 
 ```text
 MoBE-A-Test-Time-Modality-Generalization-Method/
 ├── README.md
+├── example.ipynb
 ├── requirements.txt
 ├── mobe.py
 ├── utils.py
@@ -86,6 +89,10 @@ pip install -r requirements.txt
 
 The repository keeps dataset folders empty so users can download datasets themselves. See [`assets/datasets.md`](assets/datasets.md) for the full dataset preparation guide.
 
+## Single-Image Notebook
+
+[`example.ipynb`](example.ipynb) is the quickest way to experience the full workflow before downloading any dataset. It uses six bundled images under [`assets/samples/`](assets/samples/) from COVID-19, BTMRI, and DermaMNIST, with an interactive sample picker, dataset-specific labels, CLIP-style confidence visualizations, dynamic-k expert routing, Expert Bayesian Adaptation controls, and a live single-dataset panel comparing BiomedCLIP and MoBE accuracy/confidence as inference progresses.
+
 ## Experts
 
 Download the modality expert checkpoints from:
@@ -127,6 +134,8 @@ DATASETS="hardbench_kneexray/hardbench_busi/breastmnist_224/pathmnist_224" scrip
 ```
 
 Dataset-specific MoBE hyperparameters are stored in `configs/`.
+
+Note: dataset arguments must be slash-separated config names without the `.yaml` extension. For example, use `hardbench_kneexray/breastmnist_224`, not `hardbench_kneexray.yaml,breastmnist_224.yaml`.
 
 ## Run Baselines
 

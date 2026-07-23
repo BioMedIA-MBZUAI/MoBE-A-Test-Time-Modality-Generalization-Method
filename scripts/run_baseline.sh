@@ -4,10 +4,10 @@ set -euo pipefail
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 METHOD="${1:-biomedclip}"
 
-DATASETS="${DATASETS:-hardbench_kneexray}"
-DATA_ROOT="${DATA_ROOT:-"$PROJECT_ROOT/datasets_all"}"
+DATASETS="${DATASETS:-breastmnist_224}"
+DATA_ROOT="${DATA_ROOT:-"/home/razaimam/Documents/Projects/TTW/datasets_all"}"
 CONFIG_DIR="${CONFIG_DIR:-"$PROJECT_ROOT/configs"}"
-EXPERTS_DIR="${EXPERTS_DIR:-"$PROJECT_ROOT/experts"}"
+EXPERTS_DIR="${EXPERTS_DIR:-"/home/razaimam/Documents/Projects/TTW/experts"}"
 LOG_DIR="${LOG_DIR:-"$PROJECT_ROOT/results/$METHOD"}"
 
 cd "$PROJECT_ROOT"
