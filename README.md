@@ -97,7 +97,7 @@ The repository keeps dataset folders empty so users can download datasets themse
 
 Download the modality expert checkpoints from:
 
-[https://drive.google.com/drive/folders/1YlS66UlnsRlr9QcUKL-EJ_nBfKixnZSk?usp=drive_link](https://drive.google.com/drive/folders/1YlS66UlnsRlr9QcUKL-EJ_nBfKixnZSk?usp=drive_link)
+[https://drive.google.com/drive/folders/1kVtrf3XBYQMSUQbJBoynLgEzKFau6Zij?usp=drive_link](https://drive.google.com/drive/folders/1kVtrf3XBYQMSUQbJBoynLgEzKFau6Zij?usp=drive_link)
 
 Place them under `experts/` with filenames like:
 
